@@ -1,9 +1,32 @@
-body{
+body {
     background-color:#fff2e6;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#e67300;
-}   
+    color:#e67300; 
+    line-height: 30px;
+    
+   
+}
+
 h1{
     color: #b30000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+
+ul , ol{
+    list-style-image: url(favicon-16x16.png);
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: bisque;
+    background-color: #db8b3a;
+    padding: 5px;
+}
+
+a:hover{
+    color: maroon;
 }
