@@ -11,14 +11,25 @@ h1{
     color: #b30000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
+    background-color:#e9a45f;
+    text-align: center;
+    padding: 8px;
+    
 }
 
 
-ul , ol{
+.item{
     list-style-image: url(favicon-16x16.png);
     list-style-position: inside;
 }
-
+.itemTwo{
+    list-style-image: url(pasta.png);
+    list-style-position: inside;
+}
+.itemThree{
+    list-style-image: url(burgerfav.png);
+    list-style-position: inside;
+}
 a{
     text-decoration: none;
     font-size: 19px;
